@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /protected/boilerplate/v1.0/rest
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Example Widget</title>
+        <style>
+            html {
+                background: #303030 !important;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <p>This is just an example how templates can be rendered using the boilerplate.</p>
+        <p>
+        <?php
+            echo "Value: ".htmlspecialchars($example["value"]);     
+        ?>
+        </p>
+    </body>
+</html>
